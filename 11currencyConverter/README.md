@@ -26,3 +26,8 @@ Note: docs say to not use useId for generating keys.
 # assignments
 1. to divide the ui in two components left and right and put an image on left and coverter on right (like firebase).
 2. put the default value of To to inr. (done)
+
+
+# Insights
+🧠 How Props Are Matched in React
+In React, props are matched by key (name), not by order or position. (Refer to CWR11).

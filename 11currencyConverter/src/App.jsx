@@ -25,12 +25,19 @@ function App() {
    return (
         <div
             className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
-            style={{
-                backgroundImage: `url('https://images.pexels.com/photos/30572289/pexels-photo-30572289.jpeg')`,
-            }}
+            
         >
-            <div className="w-full">
-                <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
+            <div className="w-1/2 h-screen"
+                style={{
+                backgroundImage: `url('https://cdn.pixabay.com/photo/2014/10/27/19/51/gift-505550_1280.jpg')`,
+            }}
+            ></div>
+            <div className="w-1/2 h-screen flex justify-center items-center "
+                style={{
+                backgroundImage: `url('https://cdn.pixabay.com/photo/2014/10/27/19/51/gift-505550_1280.jpg')`,
+            }}
+            >
+                <div className="w-1/2 max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                     <form
                         onSubmit={(e) => {
                             e.preventDefault();
