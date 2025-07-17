@@ -1,6 +1,10 @@
 # Goal
 The goal of this entire react series is to understand the business logic and not just to make ui ( for this there are a lot of videos in the market)
 
+
+# custom hooks
+the useTodo we created in this project is a custom hook don't forget this. 
+
 # context creation
 In TodoContext.js, you'll get to see that in context object we don't write the definition of a fxnality/fxn, rather we just write the declaration, it's name and what it is (fx i.e.  = () => {}) and it's definition is provided inside app.jsx. This is how we set things up in context api for most projects. 
 

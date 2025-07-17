@@ -14,7 +14,7 @@ function App() {
   const updateTodo = (id, todo) => {
     setTodos(prev => prev.map((prevTodo) => (
         prevTodo.id === id? {...prevTodo, todo}: prevTodo
-    )));
+    )));   // why don't we just do prevTodo.todo = todo, answer: Because React state should never be mutated directly. Instead, we return a new object to trigger proper re-rendering.
   }
 
   const deleteTodo = (id) => {
