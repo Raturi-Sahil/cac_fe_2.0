@@ -1,3 +1,6 @@
+
+# Redux all knowing.
+  check this out for connecting the dots. 
 # Redux
 Just like how we use React-dom or React-native library with core React, similar to that we have react-redux which works with redux core library to help in state management, react-redux sort of provides a way ( like a bridge ) to use redux in react app.
  
